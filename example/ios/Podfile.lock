@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - momo_payment_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - momo_payment_plugin (from `.symlinks/plugins/momo_payment_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  momo_payment_plugin:
+    :path: ".symlinks/plugins/momo_payment_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  momo_payment_plugin: 6f5a3d2e3863b7d9ea48922071e4dec989ee3140
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
