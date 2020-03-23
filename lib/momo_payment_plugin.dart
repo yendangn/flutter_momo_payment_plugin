@@ -16,10 +16,9 @@ class MomoPaymentPlugin {
     try {
       Map<String, dynamic> result =
           await _channel.invokeMapMethod(Constant.methodRequestPayment, momoPaymentData.toJson());
-      print("ZaloSignInResult ${result.toString()}");
       return MomoPaymentResult.fromMap(result);
     } on PlatformException catch (error) {
-      print(PlatformException);
+      print(error);
       return MomoPaymentResult(
         isSuccess: false,
       );

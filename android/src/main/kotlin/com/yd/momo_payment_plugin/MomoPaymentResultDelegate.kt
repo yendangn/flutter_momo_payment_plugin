@@ -41,7 +41,7 @@ class MomoPaymentResultDelegate(private val activity: Activity?) : PluginRegistr
                 if (token == null || phonenumber == null) {
                     pendingResult?.success(MomoPaymentResults.error(-1))
                 } else {
-                    pendingResult?.success(MomoPaymentRzesults.success(token, phonenumber))
+                    pendingResult?.success(MomoPaymentResults.success(token, phonenumber))
                 }
             } else {
                 pendingResult?.success(MomoPaymentResults.error(status))
