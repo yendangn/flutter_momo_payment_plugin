@@ -1,6 +1,6 @@
 name: momo_payment_plugin
 description: This is plugin support for Momo payment in Viet Nam. You can visit momo at https://developers.momo.vn/#/ page
-version: 0.0.1+1
+version: 0.0.1+2
 author: Dang Nhut Yen<dangnhutyen1594@gmail.com>
 homepage: https://github.com/yendangn/flutter_momo_payment_plugin
 
