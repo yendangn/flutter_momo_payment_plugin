@@ -50,5 +50,6 @@ class MomoPaymentResultDelegate(private val activity: Activity?) : PluginRegistr
         } ?: run {
             pendingResult?.success(MomoPaymentResults.error(-1))
         }
+        pendingResult = null
     }
 }
